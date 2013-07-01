@@ -1,0 +1,2 @@
+VariantDir('libs', 'base', duplicate=0)
+SConscript('libs/Sconstruct')

@@ -1,0 +1,24 @@
+Program(target = 'thread_test',
+        source = ['thread_test.cc'],
+        LIBS = ['base'],
+        LIBPATH = ['../libs/'],
+        LINKFLAGS = ['-lpthread'],
+      )
+Program(target = 'skiplist_test',
+        source = ['skiplist_test.cc'
+        ],
+        LIBS = ['base',
+               ],
+        LIBPATH = ['../libs/'])
+
+Program(target = 'logging_test',
+        source = ['logging_test.cc'],
+        LIBS = ['base'],
+        LIBPATH = ['../libs/'])
+
+Program(target = 'multi_thread_logging',
+        source = ['multi_thread_logging.cc'],
+        LIBS = ['base'],
+        LIBPATH = ['../libs/'],
+        LINKFLAGS = ['-lpthread'],
+        )

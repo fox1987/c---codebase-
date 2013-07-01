@@ -1,0 +1,7 @@
+Library(target = 'base',
+        source = ['thread.cc',
+                  'logging.cc',
+                  'skiplist.cc',
+                 ],
+        LIBS = ['pthread'],
+        )
