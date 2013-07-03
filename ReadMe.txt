@@ -6,6 +6,6 @@
   logging: 提供日志功能
   thread: 封装thread功能
   skiplist：封装跳表
-  timer： 计时功能
-#libs : lib库
+  timer： 计时功能,获取时间等功能
+#libs : lib库 相应的.a文件
 #test: 测试代码目录

@@ -16,6 +16,7 @@ inline time_t GetTimeInSecond() {
   gettimeofday(&now, NULL);
   return now.tv_sec;
 }
+
 inline time_t GetTimeInMs() {
   struct timeval now;
   gettimeofday(&now, NULL);
