@@ -22,3 +22,8 @@ Program(target = 'multi_thread_logging',
         LIBPATH = ['../libs/'],
         LINKFLAGS = ['-lpthread'],
         )
+Program(target = 'time_test',
+        source = ['time_test.cc'],
+        LIBS = ['base'],
+        LIBPATH = '../libs/',
+        LINKFLAGS = [''])
