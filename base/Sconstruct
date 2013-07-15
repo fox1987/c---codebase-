@@ -2,6 +2,7 @@ Library(target = 'base',
         source = ['thread.cc',
                   'logging.cc',
                   'skiplist.cc',
+                  'consist_hash.cc'
                  ],
         LIBS = ['pthread'],
         )
