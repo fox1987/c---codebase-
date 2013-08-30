@@ -6,3 +6,5 @@ Library(target = 'base',
                  ],
         LIBS = ['pthread'],
         )
+Library(target = 'trie_tree',
+        source = ['trie_tree.cc'])

@@ -35,5 +35,11 @@ Program(target = 'types_test',
 Program(target = 'consist_hash_test',
         source = ['consist_hash_test.cc'],
         LIBS = ['base'],
+        LIBPATH = ['../libs/'],
+        LINKFLAGS = [''])
+
+Program(target = 'trie_tree_test',
+        source = ['trie_tree_test.cc'],
+        LIBS = ['base','trie_tree'],
         LIBPATH = '../libs/',
         LINKFLAGS = [''])
